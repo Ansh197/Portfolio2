@@ -1,0 +1,282 @@
+body{
+    background-color: #001C30;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif; */
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 5vw;
+}
+
+.nav-container{
+    color: white;
+    margin-top: 4vh;
+}
+
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    text-align: left;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 0px;
+    gap: 30px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: white;
+}
+.descr{
+    border: none;
+    margin-right: auto ;
+}
+
+.intro-heading{
+    width: 70vw;
+    margin-top: 28vh;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.my-image{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+.about-heading{
+    margin-top: 40vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.about-content{
+    font-size: 2.2rem;
+    margin-top: 5vh;
+    width: 70vw;
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.custom-card{
+    width: 30%;
+}
+
+.hobbies{
+    margin-top: 40vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.custom-card-img{
+    width: 100%;
+    height: 65%;
+}
+
+.contact-heading{
+    margin-top: 40vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-info{
+    font-size: 2.2rem;
+    margin-top: 5vh;
+    width: 70vw;
+    color: white;
+}
+
+.footer-quote{
+    margin-top: 20vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-container{
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.skills-set{
+    margin-top: 40vh;
+    color: white;
+    font-size: 1.5rem;
+}
+.skillContainer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.Tech-heading{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.projects-heading{
+    margin-top: 40vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.card{
+    border: none;
+    box-shadow: 8px 8px 10px rgb(3, 0, 17);
+}
+
+.progress-bar{
+    background-color: #176B87;
+}
+
+.customBtn{
+    background-color: #176B87;
+    color: white;
+    /* padding: 12px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20vh 0px; */
+}
+
+/* .customBtn :hover{
+    background-color: #176B87;
+    color: white;
+    
+} */
+
+.contact-icons{
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 8vw;
+    gap: 5px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    margin-right: 1vw;
+}
+.contact-icons img{
+height: 2.5rem;
+}
+
+@media (max-width:1200px){
+    .intro-heading{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:1100px)
+{
+    .about-content{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) {
+    .nav-ele{
+        display: none;
+    }
+    .contact-info{
+        font-size: 2rem;
+    }
+    .intro-heading{
+        width: 100%;
+        font-size: 3rem;
+    }
+    .projects-heading{
+        text-align: center;
+    }
+    .hobbies{
+        text-align: center;
+    }
+    .card-container {
+        display : flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 8vh;
+        align-items: center;
+        width: 100%;
+    }
+    .custom-card{
+        width: 80%;
+    }
+    .custom-card-img{
+        height: 80vw;
+    }
+    .footer-container{
+        margin-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .contact-icons{
+        gap: 10px;
+        margin-right: 0vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-quote{
+        text-align: center;
+    }
+
+}
+
+span>a{
+    text-decoration: none;
+    color:#64CCC5 ;
+}
+
+@media (max-width:835px){
+    .about-content{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:640px){
+    body{
+        padding:0px 3vw
+    }
+    .intro-heading{
+        font-size: 2rem;
+    }
+    .my-image{
+        height: 2rem;
+        width: 2rem;
+    }
+    .about-content{
+        font-size: 1.8rem;
+    }
+    .contact-info{
+        font-size: 1.8rem;
+    }
+    .skillContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-column-gap: 50px;
+    }
+
+}
+
+@media(max-width:576px) {
+    .about-content,.contact-info{
+        font-size: 1.5rem;
+    }
+}
