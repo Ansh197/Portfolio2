@@ -116,7 +116,7 @@ body{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 50px;
+    grid-column-gap: 4rem;
 }
 
 .Tech-heading{
